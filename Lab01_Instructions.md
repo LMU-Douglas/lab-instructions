@@ -49,6 +49,21 @@ First, write a line of code to ask the customer their name and save it to a vari
 
 Next, have your code repeat the customer's name back to them **and** ask for their drink order. Write another line of code that does the same but asks for their meal order. Make sure to have their drink and their meal to separate orders.
 
-Finally, have your cashier-bot print out their order and thank the customer using their name. (I.E "Thank you President . You ordered a large Coke and an Iggy Melt. ~~Can I have a raise?~~)
+Finally, have your cashier-bot print out their order and thank the customer using their name. (I.E "Thank you President Guyder. You ordered a large Coke and an Iggy Melt. ~~Can I have a raise?~~)
 
+### Part B ~ **"Algorithms! Math!" - Stanley Tucci, Transformer: Age of Extinction, 2014**
+
+In this scenario, you are doing math. :/
+
+Cashier-bot has been fired by President Guyder for asking for money. Cashier-bot has now started a new job at The Cheesecake Factory. On their first table, Cashier-bot's table asked if they can split the bill six ways. 
+
+The total bill is `$148.45`. The table is tipping `20%`. The sales tax is `10%`. 
+
+How much does each person at the table have to pay?
+
+A couple of hints: 
+- Make sure to save each number to their own variable first
+- Check out the slides for the right mathmatical syntax
+- Try so solve the math out by hand first
+- Save the final result to it's own variable
 
