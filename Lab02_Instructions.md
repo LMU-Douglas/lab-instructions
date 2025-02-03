@@ -97,6 +97,8 @@ Next, ask the user a series of questions. You can ask them anything! Each time t
 
 Finally, based on their answers, print out a message that tells them what kind of person they are. You can use conditionals to do this.
 
+>Assume each input will be given as a number. The user will type `1` not `red`.
+
 Each question will use a conditional in some way, shape, or form. Different questions will require different conditionals (i.e. if, elif, else) or may even require nested conditionals. Follow the template below to get started and keep an eye on those types! There may already be something amiss...
 
 
@@ -133,7 +135,12 @@ if color == 1:
 
 # Question #3
 # Do you like drinking warm drinks or cold drinks?
-# If they like hot chocolate, ask them if the like hot cocoa or tea
+drink_choice = input("Do you like drinking warm drinks or cold drinks?")
+print("1) Warm Drinks")
+print("2) Cold Drinks")
+if drink_choice == "1":
+    second_choice = 0 # Change the 0 here with what's below
+# If they like warm drinks, ask them if the like hot cocoa or tea
 # If they like hot cocoa, add a point to winter
 # If they like tea, add a point to spring
 # If they like cold drinks, ask them if they like lemonade or iced tea
@@ -142,6 +149,8 @@ if color == 1:
 
 # Question #4
 # What activity do you like to do outside?
+print("1) Swimming")
+print("2) Skiing")
 # If they like to swim, add a point to summer
 # If they like to ski, add a point to winter
 # If they like to garden, add a point to spring
@@ -150,6 +159,8 @@ if color == 1:
 # Question #5
 # What month were you born in?
 month = input("What month were you born in? ")
+if month == 'June': #add the rest of the months here
+    pass
 # If they were born in June, July, or August, add a point to summer
 # If they were born in September, October, or November, add a point to fall
 # If they were born in December, January, or February, add a point to winter
