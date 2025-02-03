@@ -54,6 +54,33 @@ else:
 ```
 
 
+### What are the comparison operators?
+Comparison operators are used to compare two values. Here are a few:
+| Operator | Description | Example |
+| --- | --- | --- |
+| `==` | Equal to | `x == 5` |
+| `!=` | Not equal to | `x != 5` |
+| `>` | Greater than | `x > 5` |
+| `<` | Less than | `x < 5` |
+| `>=` | Greater than or equal to | `x >= 5` |
+| `<=` | Less than or equal to | `x <= 5` |
+
+### What are the logical operators?
+Logical operators are used to combine conditional statements. Here are a few:
+| Operator | Description | Example |
+| --- | --- | --- |
+| `and` | Returns True if both statements are true | `x < 5 and x < 10` |
+| `or` | Returns True if one of the statements is true | `x < 5 or x < 4` |
+| `not` | Reverse the result, returns False if the result is true | `not(x < 5 and x < 10)` |
+
+Here is a truth table for the `and` and `or` operator:
+| x | y | x and y | x or y |
+| --- | --- | --- | --- |
+| True | True | True | True |
+| True | False | False | True |
+| False | True | False | True |
+| False | False | False | False | 
+
 ## Your Lab
 
 |Part | Topic |
