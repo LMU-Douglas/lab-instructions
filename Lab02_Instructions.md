@@ -171,7 +171,7 @@ if month == 'June': #add the rest of the months here
 # Based on the answers, print out the season they are most like!
 # Use conditionals to do this.
 
-# How can you find the House with the max count?
+# How can you find the season with the max count?
 # Remember that in the event of a tie, the user should be sorted into
 # the season in alphabetical order, so if there is a tie between summer 
 # and spring, the user should be sorted into spring.

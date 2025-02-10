@@ -59,7 +59,7 @@ def farenheit_to_celsius(farenheit):
 |Part | Topic |
 | --- | --- |
 |A | Temperature Conversion|
-|B | Miles to Meters |
+|B | Inches to Centimeters |
 |C | Total Bill |
 
 
