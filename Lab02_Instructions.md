@@ -99,7 +99,7 @@ Finally, based on their answers, print out a message that tells them what kind o
 
 >Assume each input will be given as a number. The user will type `1` not `red`.
 
-Each question will use a conditional in some way, shape, or form. Different questions will require different conditionals (i.e. if, elif, else) or may even require nested conditionals. Follow the template below to get started and keep an eye on those types! There may already be something amiss...
+Each question will use a conditional in some way, shape, or form. Different questions will require different conditionals (i.e. if, elif, else) or may even require nested conditionals. Copy the template below into your own file to get started and keep an eye on those types! There may already be something amiss...
 
 
 ```python
