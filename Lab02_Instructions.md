@@ -135,9 +135,9 @@ if color == 1:
 
 # Question #3
 # Do you like drinking warm drinks or cold drinks?
-drink_choice = input("Do you like drinking warm drinks or cold drinks?")
 print("1) Warm Drinks")
 print("2) Cold Drinks")
+drink_choice = input("Do you like drinking warm drinks or cold drinks?")
 if drink_choice == "1":
     second_choice = 0 # Change the 0 here with what's below
 # If they like warm drinks, ask them if the like hot cocoa or tea
