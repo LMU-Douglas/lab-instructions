@@ -44,22 +44,6 @@ for i in range(5):
 - `break` - This keyword is used to exit a loop.
 - `continue` - This keyword is used to skip the current iteration of a loop and continue with the next iteration.
 
-
-### *A Brief Note on Lists*
-Lists are a data structure that we will discuss in-depth next week. For now, just know that they are a collection of items. Here is an example of a list:
-```python
-my_list = [1, 2, 3, 4, 5]
-```
-> In this example, the variable `my_list` is a list of numbers from 1 to 5.
-
-You can get an item from a list by using indexing. Here is an example:
-```python
-my_list = [1, 2, 3, 4, 5]
-print(my_list[0])
-```
-> In this example, the code block `print(my_list[0])` will print `1`.
-
-
 ## Your Lab
 
 |Part | Topic |
