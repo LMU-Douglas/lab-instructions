@@ -38,6 +38,8 @@ There are many, different methods for strings in Python. Here are a few:
 |Part | Topic |
 | --- | --- |
 |A | Character Counts-er |
+|B | Work Repeater |
+|C | Name Mixer |
 
 
 
