@@ -66,7 +66,7 @@ Test your function with the following test cases:
 Feel free to add more test cases to make sure your function works as expected.
 
 ### Part B ~ Work Repeater
-In this scenario, Cashier-Bot has been working so hard at **Cash's Droid Burgers** that he's been repeating himself! Write a function that takes in a string and a number, and returns the string repeated that many times.
+In this scenario, Cashier-Bot has been working so hard at **Cash's Droid Burgers** that they've been repeating themself! Write a function that takes in a string and a number, and returns the string repeated that many times.
 
 >If you put in the string `"hello"` and the number `3`, the function should return `"hellohellohello"`.
 
