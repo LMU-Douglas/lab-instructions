@@ -44,9 +44,9 @@ There are many, different methods for strings in Python. Here are a few:
 
 
 ### Part A ~ Character Counts-er
-In this scenario, Cashier-Bot's restaurant, **Cash's Droid Burgers**, has grown like crazy, spawning multiple franchised locations! However, this means that
+In this scenario, Cashier-Bot's restaurant, **Cash's Droid Burgers**, has grown like crazy, spawning multiple franchised locations!
 
-Write a function that counters how often a given letter appears in the word. The function should take in two parameters: a string and a letter. The function should return the number of times the letter appears in the string.
+Write a function that count how often a given letter appears in the word. The function should take in two parameters: two strings `word` and `letter`. The function should `return` and integer which is the number of times the letter appears in the string.
 
 >If you put in the string `"hello"` and the letter `"l"`, the function should return `2`.
 
