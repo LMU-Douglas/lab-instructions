@@ -98,6 +98,7 @@ Write a function that calculates the total bill for a meal. The function should 
 
 `tip_percent` is a float that represents the tip percentage.
 
+The beginning of the function should look like this:
 ```python
 def total_bill(meal_cost, tip_percent):
     pass
