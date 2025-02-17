@@ -54,6 +54,7 @@ Write a function that count how often a given letter appears in the word. The fu
 - You can use a loop to go through each character in the string.
 - Make sure you're taking in 2 parameters: the word and the letter.
 
+
 **Test Cases**
 
 Test your function with the following test cases:
