@@ -33,9 +33,8 @@ print(grocery_list[0:2])
 ### Methods
 There are many, different methods for lists in Python. Here are a few:
 - `append()` - This method adds an element to the end of the list.
-- `insert()` - This method adds an element at the specified position.
 - `remove()` - This method removes the first occurrence of the element with the specified value.
-- `pop()` - This method removes the element at the specified position.
+- `pop()` - This method removes the element at the specified index.
 - `clear()` - This method removes all the elements from the list.
 
 There are more methods! Check out the slides from class or online for more information.
