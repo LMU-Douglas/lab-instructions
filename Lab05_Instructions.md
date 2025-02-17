@@ -86,14 +86,14 @@ Test your function with the following test cases:
 ### Part C ~ Name Mixer
 In this scenario, Cashier-Bot is still mixing themself up! Now they'll hear names and swap them around. Write a program that takes in two names, swaps their first names, and returns the new names.
 
->If you put in the names `"Cashier Bot"` and `"Jason Douglas"`, the function should return `"Jason Bot"` and `"Cashier Douglas"`.
+>If you put in the names `"Cashier Bot"` and `"Jason Douglas"`, the program should return `"Jason Bot"` and `"Cashier Douglas"`.
 
 **Some Tips**
 - Check out your string methods! You can use them to split the names into lists, and then recombine them.
 
 **Test Cases**
 
-Test your function with the following test cases:
+Test your program with the following test cases:
 | Name 1 | Name 2 | Expected Output |
 | --- | --- | --- |
 | `Cashier Bot` | `Jason Douglas` | `Jason Bot` and `Cashier Douglas` |
