@@ -71,7 +71,7 @@ sorted_cities('San Francisco,Boston,Chicago,Indianapolis')
 In this scenario, Conversion-Bot, Cashier Bot's sister, has been promoted to the Vice President of **Cash's Burger Corp**. She are now in charge of the company's finances. Complete the function `same_but_different_order` that, given two lists of integers, returns `True` if the lists contain the same elements, but not necessarily in the same order. Otherwise, it should return `False`. Feel free to copy the code below, but **do not modify any of it.**
 
 ```python
-# TODO: is_permutation is given two lists and returns True
+# TODO: same_but_different_order is given two lists and returns True
 # if lists contain the same elements, possibly in different orders,
 # and False otherwise
 def same_but_different_order(list1, list2):
