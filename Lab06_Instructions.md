@@ -78,11 +78,15 @@ def same_but_different_order(list1, list2):
 
 
 # Below is our test code. Do not modify it, but you may add your own prints.
-assert(is_permutation([1, 2, 3], [3, 1, 2]) == True) 
-assert(is_permutation([1, 1, 1, 2],[1, 2, 1, 1]) == True)
-assert(is_permutation([1, 2, 3, 1], [1, 2, 3]) == False)
-assert(is_permutation([1, 1, 2, 3], [1, 3, 2, 2]) == False)
+assert(same_but_different_order([1, 2, 3], [3, 1, 2]) == True) 
+assert(same_but_different_order([1, 1, 1, 2],[1, 2, 1, 1]) == True)
+assert(same_but_different_order([1, 2, 3, 1], [1, 2, 3]) == False)
+assert(same_but_different_order([1, 1, 2, 3], [1, 3, 2, 2]) == False)
 ```
+
+**About Assert**
+- `assert()` is a function in Python that you can use to test your code. If the condition is `True`, the program will continue to run. If the condition is `False`, the program will stop and throw an error.
+
 
 ### Part C ~ Tic Tac Toe (Optional)
 
