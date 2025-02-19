@@ -23,14 +23,30 @@ Some other data structures include:
 - Heaps
 - And many more!
 
-### Call Stacks
+### Stack Diagram
 A call stack is a stack data structure that stores information about the active subroutines of a computer program. This is important because it allows the program to keep track of where it is in a program.
 
-
+For the purposes of this class, however, we're going to keep things simple.
 
 ## Your Lab
 
 |Part | Topic |
 | --- | --- |
-|A |  |
-|B  |  | 
+|A | Stack Diagram |
+
+
+## Part A ~ **Stack Diagram**
+
+For this lab, you will need to submit a drawing of a stack diagram. This diagram should trace the program below. You can draw this by hand or use a drawing tool. 
+
+```python
+def secret_math(x):
+    secret_num = subtract_3(x)
+    return secret_math * 2
+
+def subtract_3(y):
+    return y - 3
+
+num = 5
+result = secret_math(num)
+```
