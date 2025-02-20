@@ -42,7 +42,7 @@ For this lab, you will need to submit a drawing of a stack diagram. This diagram
 ```python
 def secret_math(x):
     secret_num = subtract_3(x)
-    return secret_math * 2
+    return secret_num * 2
 
 def subtract_3(y):
     return y - 3
