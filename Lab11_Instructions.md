@@ -1,7 +1,7 @@
 # Welcome to Lab11 and Turtles!
 
 ### Turtles
-In this lab, you will practice recursion using the turtle module in Python.
+In this lab, you will practice recursion using the turtle module in Python. Make sure to read everything thoroughly and send me a message if you have any questions!
 
 ## Notes
 
@@ -41,25 +41,34 @@ We can use recursion here to take those one large shape and break it down into s
 |Part | Topic |
 | --- | --- |
 |A | Getting to Know Turtle|
-|B | Baby Steps with Recursion|
-|C | Koch Snowflake|
+|B | Koch Snowflake|
 
 ### Part A ~ **Getting to Know Turtle**
 
 In this part, you will practice using the turtle module to draw shapes.
 
-### Part B ~ **Baby Steps with Recursion**
+```python
+from turtle import *
 
+def draw_square(length):
+    #right now this function draws a line, update it iteravely to draw a square
+    forward(length)
+    right(90)
 
-### Part C ~ **Koch Snowflake**
+```
 
-Using the starter code below, implement the function `koch_fractal` that will draw a Koch snowflake using recursion. The function should take two arguments: `n`, which is the number of turns the turtle should make, and `step`, which is the distance the turtle should move forward.
+If you want to play around with Turtle more, try creating functions to draw other shapes like triangles, pentagons, or hexagons!
 
-Note: The code below the function definition is used to draw the snowflake. You do not need to modify it. However, you can modify the function call itself.
+### Part B ~ **Koch Snowflake**
+
+Using the starter code below, implement the function `koch_fractal` that will draw a Koch snowflake using recursion. The function should take two arguments: 
+1. `n`, which is the number of turns the turtle should make
+2. `step`, which is the distance the turtle should move forward
+
+Note: The code **below** the function definition is used to draw the snowflake. You do not need to modify it. However, you can modify the function call itself.
 
 ```python
-
-
+from turtle import *
 def koch_fractal(n, step):
     # Base case: if no turns (n) remain,
     if n == 0:
@@ -74,7 +83,7 @@ def koch_fractal(n, step):
     # Keep the step size the same
 
 
-    # TOD: Have Turtle turn left 60 degrees
+    # TODO: Have Turtle turn left 60 degrees
 
 
     # TODO: Draw fractal with one fewer turns by decreasing n
@@ -99,11 +108,11 @@ def koch_fractal(n, step):
 
 # This brings Turtle to leftmost portion
 # of screen. You do not need to change this code.
-
+title("Koch Fractal")
+speed(0)
 penup()
-goto(0, 200)
+goto(-200, 100)
 pendown()
-right(90)
 
 # Here you can change calls to koch_fractal to draw curves
 # Remember the first argument n is how many turns you want
@@ -111,5 +120,16 @@ right(90)
 # is how far Turtle will walk forward.
 # This function is not efficient, so try with small values of n
 # Optional: Make a snowflake by combining 3 koch fractals into a triangle
-koch_fractal(3, 10)
+koch_fractal(4, 10)
+
+hideturtle()
+done()
 ```
+
+### Debugging
+
+There are a few common errors that you might encounter when working with the turtle module:
+1. Forgetting to import the turtle module: Make sure you import the turtle module at the beginning of your code. Make sure you have `from turtle import *` at the top of your code.
+2. The window may not pop infront of VSCode. If you are using VSCode, you may need to click on the turtle window to bring it to the front.
+3. It's okay if your drawing does not match the images above exactly. The goal is to get a sense of how recursion can be used to create complex shapes.
+4. If you run into a No module named '_tkinter' error, you’ll have to install the Tk interface package on your system. If you see this error, please head to the lab to get some assistance from a TA. It'll be a little involved and it's best to ask for help here.
