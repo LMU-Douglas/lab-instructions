@@ -5,6 +5,7 @@ def draw_square(length):
     forward(length)
     right(90)
 
+
 speed(0)
 penup()
 goto(-200, 100)
