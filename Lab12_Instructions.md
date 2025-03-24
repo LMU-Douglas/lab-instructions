@@ -153,7 +153,7 @@ assert(round(dog.weight, 2) == 15.3)
 ```
 
 ### Part C ~ **Complex Numbers**
-Complex numbers have a real part and an imaginary part. The imaginary part is multiplied by i, the square root of -1. A complex number can be written a + bi where a is the real part and b is the imaginary part. In the following cell, complete the Complex class.
+Complex numbers have a real part and an imaginary part. The imaginary part is multiplied by i, the square root of -1. A complex number can be written a + bi where a is the real part and b is the imaginary part. Copy the following code and complete the todos!
 
 ```python
 class Complex(object):
