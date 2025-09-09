@@ -1,7 +1,7 @@
 # Welcome to Lab00 and to CMSI 1010!
 
 ### Instructions for Python file
-Create a new file in your lab-notebooks repository called lab00.py.
+Create a new file in your lab-repository folder called lab00.py.
 
 Make sure you **save the file** before you run it.
 >You can do this by either my selecting File > Save or CTRL/CMD + S. (i.e. CTRL + S if you are on Windows and CMD/⌘ + S if you're on Mac)
