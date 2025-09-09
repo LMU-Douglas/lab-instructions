@@ -117,10 +117,10 @@ spring = 0
 
 # Question #1
 print("What color do you like the most?")
-print(" 1) Red")
-print(" 2) Blue")
-print(" 3) Green")
-print(" 4) Yellow")
+print(" 1) Red") #summer
+print(" 2) Blue") #fall
+print(" 3) Green") #winter
+print(" 4) Yellow") #spring
 color = input("Enter the number of your choice: ")
 
 if color == 1:
