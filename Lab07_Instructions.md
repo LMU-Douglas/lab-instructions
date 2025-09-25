@@ -41,12 +41,13 @@ For this lab, you will need to submit a drawing of a stack diagram. This diagram
 
 ```python
 def secret_math(x):
-    secret_num = subtract_3(x)
+    secret_num = divide_8(x)
     return secret_num * 2
 
-def subtract_3(y):
-    return y - 3
+def divide_8(y):
+    z = y/8
+    return z
 
-num = 5
+num = 64
 result = secret_math(num)
 ```
