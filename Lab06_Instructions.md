@@ -48,7 +48,7 @@ There are more methods! Check out the slides from class or online for more infor
 |C | Tic Tac Toe (Optional) |
 
 ### Part A ~ **Sorted Lists**
-In this scenario, Cashier-Bot has become the CEO of **Cash's Burger Corp**. They are now in charge of flying to cities which are interested in creating new, franchised locations. Complete the function `sorted_cities that`, given a string with the names of cities separated by commas, prints a list of the cities in sorted order. This function returns `None`. Feel free to copy the code below, but **do not modify any of it.**
+In this scenario, Cashier-Bot has become the CEO of **Cash's Burger Corp**. They are now in charge of flying to cities which are interested in creating new, franchised locations. Complete the function `sorted_cities that`, given a string with the names of cities separated by commas, prints a list of the cities in sorted order. This function returns `None`. Feel free to copy the code below, but **do not modify any of the function calls or asserts.**
 
 **Some Tips**
 
