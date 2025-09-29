@@ -1,6 +1,6 @@
-# Welcome to Lab07 and Exam 1 Review!
+# Welcome to Lab08 and Exam 1 Review!
 
-### Exam 1 Review (Optional)
+### Exam 1 Review
 
 In this lab, you will review the topics that will be covered on Exam 1.
 
