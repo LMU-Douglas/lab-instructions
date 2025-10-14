@@ -5,6 +5,16 @@
 In this lab, you will use dictionaries in Python.
 
 ## Notes 
+To start a dictionary, follow the syntax below with the handy dandy curly braces.
+```python
+favorite_ice_cream = {"Jason":"cookie dough","Matt":"cookies and cream"}
+favorite_ice_cream["Jason"] # this gives us cookie dough
+```
+
+If we want to add to this dictionary above, all we need to do is specify a person or key. The key is what is in the brackets. So if I want to add Tanya's favorite flavor of ice cream, all I need to do is the code below!
+```python
+favorite_ice_cream["Tanya"] = "Sea Salt Caramel"
+```
 
 ### Dictionaries
 
