@@ -52,13 +52,6 @@ assert(len(austen_words) == 24)
 Now that Cashier-Bot has all the words loaded into their english chip, they need to find the frequency of each word in the quotes. Using the words you saved from the previous part, write a function called `frequency` that will count the frequency of each word in the quotes. You will need to save the frequency of each word in a dictionary. Then finally, `return` the dictionary.
 
 ```python
-def frequency(words):
-    word_counts = {}
-
-    return word_counts
-
-
-
 # TODO: frequency is given a list of words
 # and returns a dictionary of the counts of each
 # word in the list of words
