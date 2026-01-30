@@ -47,7 +47,7 @@ In this scenario, you are writing a program to be the cashier at Iggy's Diner. ~
 
 First, write a line of code to ask the customer their name and save it to a variable. You can use the input function from above.
 
-Next, have your code repeat the customer's name back to them **and** ask for their drink order. Write another line of code that does the same but asks for their meal order. Make sure to have their drink and their meal to separate orders.
+Next, have your code repeat the customer's name back to them **and** ask for their drink order. Write another line of code that does the same but asks for their meal order. Make sure to have their drink and their meal to separate variables.
 
 Finally, have your cashier-bot print out their order and thank the customer using their name. (I.E "Thank you President Guyder. You ordered a large Coke and an Iggy Melt. ~~Can I have a raise?~~)
 
