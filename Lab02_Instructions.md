@@ -106,14 +106,13 @@ Each question will use a conditional in some way, shape, or form. Different ques
 # Part A - Intro
 # Ask the user for their name and save it to a variable!
 
+# Part B - Questions
 
 # Use the varibles below to keep track of their scores.
 summer = 0
 fall = 0
 winter = 0
 spring = 0
-
-# Part B - Questions
 
 # Question #1
 print("What color do you like the most?")
