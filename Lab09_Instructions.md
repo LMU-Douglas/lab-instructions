@@ -5,17 +5,33 @@
 In this lab, you will use dictionaries in Python.
 
 ## Notes 
+
+#### What is a dictionary?
+A dictionary is a collection of key-value pairs. Each key is unique and maps to a value. Dictionaries are mutable, meaning you can change them after they are created. They are also unordered, meaning that the order of the key-value pairs does not matter.
+
+#### Initializing a dictionary
 To start a dictionary, follow the syntax below with the handy dandy curly braces.
 ```python
 favorite_ice_cream = {"Jason":"cookie dough","Matt":"cookies and cream"}
 favorite_ice_cream["Jason"] # this gives us cookie dough
 ```
-
+#### Adding to a dictionary
 If we want to add to this dictionary above, all we need to do is specify a person or key. The key is what is in the brackets. So if I want to add Tanya's favorite flavor of ice cream, all I need to do is the code below!
 ```python
 favorite_ice_cream["Tanya"] = "Sea Salt Caramel"
 ```
 
+#### Updating a dictionary
+If we want to update a dictionary, we can do so by specifying the key and assigning it a new value. For example, if we want to change Jason's favorite flavor of ice cream to "Banana & Oreo", we can do so by the code below!
+```python
+favorite_ice_cream["Jason"] = "Banana & Oreo"
+```
+
+#### Deleting from a dictionary
+If we want to delete a key-value pair from a dictionary, we can use the `del` keyword. For example, if we want to delete Tanya's favorite flavor of ice cream, we can do so by the code below!
+```python
+del favorite_ice_cream["Tanya"]
+```
 ### Dictionaries
 
 
@@ -30,6 +46,11 @@ favorite_ice_cream["Tanya"] = "Sea Salt Caramel"
 ### Part A ~ Getting Words from Strings
 
 In this scenario, Cashier-Bot needs to reset their english chip on the language processor. To do this, they need to process a string and get all the words from it. Using the strings below, write a program that will take the strings and put them into a list. For all of the strings, you will need to save the words in a *separate* list of strings.
+
+**Some Tips**
+- You can use the `split()` method to split a string into a list of words.
+- We aren't using a dictionary just yet! We're just getting ourselves set up.
+
 
 ```python
 # credit for the qutoes goes to: https://oxfordsummercourses.com/articles/books-for-english-literature-students-to-read/ and the authors as well
@@ -53,13 +74,14 @@ assert(len(lee_words) == 27)
 assert(len(austen_words) == 24)
 ```
 
-**Some Tips**
-- You can use a string method here to split the string into a list of words.
-- We aren't using a dictionary just yet! We're just getting ourselves set up.
-
 ### Part B ~ Find that Frequency!
 
 Now that Cashier-Bot has all the words loaded into their english chip, they need to find the frequency of each word in the quotes. Using the words you saved from the previous part, write a function called `frequency` that will count the frequency of each word in the quotes. You will need to save the frequency of each word in a dictionary. Then finally, `return` the dictionary.
+
+**Some Tips**
+- You can use a dictionary to keep track of the counts of each word.
+- You can use a loop to go through each word in the list of words.
+- You can use the `in` operator to check if a key is in the dictionary.
 
 ```python
 # TODO: frequency is given a list of words
@@ -98,13 +120,16 @@ assert(austen_counts['a'] == 1)
 
 ```
 
-**Some Tips**
-- You can use a dictionary to keep track of the counts of each word.
-- You can use a loop to go through each word in the list of words.
-- You can use the `in` operator to check if a key is in the dictionary.
+
 
 ### Part C ~ Similarity Scores
 Finally, Cashier-Bot's english chip reset is almost complete! All Cashier-Bot needs is to compute the similarity score btween two different dictionaries. Write a function `similarity_score` that takes in *two* dictionaries and returns the similarity score. The similarity score is **between 0 and 1** where 1 indicates that the strings are identical and 0 indicates that they have no words in common.
+
+**Some Tips**
+- Follow along closely with the comments in the code
+- You will need to use loops, dictionaries, and variables to keep track of the counts of words.
+- You will need to calculate the similarity score using the formula provided.
+
 
 ```python
 # TODO: Complete this function similarity_score
@@ -182,8 +207,3 @@ assert(0.18 > similarity_score(dickens_counts, austen_counts) >
        similarity_score(fitzgerald_counts, dickens_counts) > 
        similarity_score(fitzgerald_counts, lee_counts) > 0)
 ```
-
-**Some Tips**
-- Follow along closely with the comments in the code
-- You will need to use loops, dictionaries, and variables to keep track of the counts of words.
-- You will need to calculate the similarity score using the formula provided.
