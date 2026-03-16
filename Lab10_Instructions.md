@@ -36,7 +36,7 @@ The recursive case is the condition that calls the function recursively. It is t
 |A | Stack Diagram|
 
 ### Part A ~ Stack Diagram
-We taklked about stack diagrams a few weeks ago. In this part, you will create a stack diagram for the following recursive function:
+In this part, you will create a stack diagram for the following recursive function:
 
 ```python
 def mystery(n):
